@@ -1,0 +1,32 @@
+#title{
+    margin-top: 50px;
+    padding-bottom:50px;
+    color: #7c795d; font-family: 'Trocchi', serif; font-size: 100px; font-weight: normal; line-height: -30px;
+}
+
+.form{
+    margin-top: -50px;
+    align-self: center;
+}
+#box{
+    margin-top: 50px;
+    width:100%;
+    height:900px;
+    text-align: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+
+}
+.signitems{
+    font-family: 'Open Sans Condensed', sans-serif; font-size: 38px; color: #333;
+    display:block;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s 0.1s;
+    visibility: visible;
+    margin-bottom: 30px;
+    opacity: 1;
+    transform: scale(1);
+    border-radius: 20%;
+}

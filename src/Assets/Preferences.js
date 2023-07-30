@@ -1,0 +1,1 @@
+export const Preferences=['Basketball','Golf','Football','American Football','Computer Science','Mathematics','Yoga','Classical Music','Pop','Painting','Gardening','Drawing','Cricket','Insects','Chemistry','Calculus','Trigonometry','Gym','Running','Volleyball','Constrcution','Woodwork','Baking'];

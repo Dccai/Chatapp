@@ -1,0 +1,118 @@
+#searchBackground{
+    background-color: aquamarine;
+    min-height: 100dvh;
+    text-align: center;
+}
+#searchContainer{
+height:300px;
+overflow-y: scroll;
+margin-left: auto;
+margin-right: auto;
+}
+#searchContainer::-webkit-scrollbar{
+    display: none;
+  }
+#search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    min-width:200px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: darkorange;
+    text-align: center;
+    position: relative;
+   
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+#search:hover {
+    transition-duration: 0.1s;
+    background-color: #3A3A3A;
+  }
+  
+  #search:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  #search:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  #search:active {
+    top: 1px;
+  }
+  
+#searchText{
+    margin-top: 16px;
+    font-size: 42px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+
+
+
+
+.searchResults {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  font-family: "Open Sans;", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#results{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searchResults:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+    .searchResults {
+    padding: 0.25em 0.75em;
+  }
+}

@@ -1,0 +1,102 @@
+
+
+/* CSS */
+#options {
+    width:10%;
+    height:40px;
+    text-align:center;
+    border-color: black;
+    position: absolute;
+    top:30px;
+    left:-12px;
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#options:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+#options:active {
+  transform: scale(0.95);
+}
+.barLinks
+{
+    text-decoration: none;
+    display:inline-block;
+    margin-left:11.9%;
+    margin-right: 11.9%;
+    margin-top: 27px;
+    
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 38px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#optionBar{
+    position: absolute;
+    background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    height:100px;
+    top:80px;
+    width:100%;
+}
+#body{
+    background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    text-align: center;
+    height: 100vh;
+    
+}
+#title{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 795px;
+    padding-top: 30px;
+    margin: 0px auto 0;
+
+}
+.subText{
+    font-weight: 500;
+    font-size: 2rem;
+    color: cadetblue;
+}

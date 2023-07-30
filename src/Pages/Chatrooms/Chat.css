@@ -1,0 +1,69 @@
+#chatView{
+    overflow: scroll;
+    height:500px;
+    background-color: white;
+    overflow-x: hidden; 
+    text-align: center;
+}
+#chatView::-webkit-scrollbar{
+    display: none;
+  }
+#chatTitle{
+text-align: center;
+}
+#chatBack{
+    background-color: rgb(137,207,240);
+    height:100dvh;
+    margin-top: -23px;
+}
+.you{
+    width:200px;
+    min-height: 100px;
+    margin-left:auto;
+    background-color: rgb(66, 225, 13);
+    border-radius: 20%;
+    border-color: black;
+    border-width: 30px;
+    padding:20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+}
+.other{
+    width:200px;
+    min-height: 100px;
+    background-color: rgb(0, 120, 254);
+    color: white;
+    margin-right:auto;
+    border-radius: 20%;
+    padding:20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#chatBox{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:600px;
+    height:50px;
+    border-radius: 25px;
+    padding:10px 10px;
+    font-size: 30px;
+}
+#chatSend{
+    border-radius: 25px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    margin-top:10px;
+}
+#chatty{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.chatBoxTitle{
+    padding-top: -30px;
+}
